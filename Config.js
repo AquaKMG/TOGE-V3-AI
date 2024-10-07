@@ -2,17 +2,17 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "24105114159"],
-global.ownername = process.env.OWNER_NAME || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
+global.ownernumber = [ process.env.OWNER_NUMBER || "18296997112"],
+global.ownername = process.env.OWNER_NAME || "*🩸KING SIEGFRIED KMG🩸*",
 global.ytname = "YT: kenzo3146"
 global.socialm = "GitHub: toge012345"
 global.location = "Africa"
 
-global.botname = process.env.BOTNAME || "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑",//name of the bot
+global.botname = process.env.BOTNAME || "🩸KILLER💎KMG🩸",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "𝐓𝐎𝐆𝐄-𝐌𝐃-𝐕𝟑",
-global.packname = 'Sticker By'
+global.stickername = process.env.STICKER || "_*🩸KING SIEGFRIED KMG🩸*_",
+global.packname = '🩸DIAMOND💎'
 global.author = process.env.AUTHOR || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
 //console view/theme
 global.themeemoji = '𓅃'
@@ -22,7 +22,7 @@ global.wm = "𝐓𝐎𝐆𝐄_𝐁𝐎𝐓 𝐈𝐧𝐜 ✨"
 global.link = 'https://whatsapp.com/channel/0029VaiuD4s4IBhI0fzbv40Z'
 
 //custom prefix
-global.prefa = process.env.PREFIX || ".",
+global.prefa = process.env.PREFIX || "+",
 
 //false=disable and true=enable
 global.welcome = process.env.WELCOME || "false", //auto welcome
@@ -42,7 +42,7 @@ global.mess = {
     prem: '💫 *hello senpai, this feature is reserved for premium users only*',
     admin: '💫 *hello senpai, this feature is reserved for admins only*',
     botAdmin: '💫 *senpai, this feature can only be used when the bot is a group admin* ',
-    owner: '💫 *hello senpai, this feature is reserved for the owner only*',
+    owner: '💫 *hello senpai, this feature is reserved for _*🩸KING SIEGFRIED KMG🩸*_ only*',
     group: '💫 *sensei, this feature is exclusively for groups*',
     private: '💫 *hello senpai, this feature is exclusively for private chats*',
     wait: '💫 *hello senpai, in process...* ',    
@@ -52,7 +52,7 @@ module.exports = {
 ownernumber: global.ownernumber,
 ownername: global.ownername,
 AUTO_BLOCK : process.env.PM_BLOCKER,
-STATUS_SAVER : "true",
+STATUS_SAVER : "false",
 ANTI_BOT:"false",
 }
 
