@@ -2,8 +2,8 @@ const fs = require('fs');
 const chalk = require('chalk');
 
 //contact details
-global.ownernumber = [ process.env.OWNER_NUMBER || "18296997112"],
-global.ownername = process.env.OWNER_NAME || "*🩸KING SIEGFRIED KMG🩸*",
+global.ownernumber = [ process.env.OWNER_NUMBER || "237681640773"],
+global.ownername = process.env.OWNER_NAME || "_*🩸𝗗𝗜𝗔𝗠𝗢𝗡𝗗💎𝗞𝗠𝗚🩸*_",
 global.ytname = "YT: kenzo3146"
 global.socialm = "GitHub: toge012345"
 global.location = "Africa"
@@ -11,8 +11,8 @@ global.location = "Africa"
 global.botname = process.env.BOTNAME || "🩸KILLER💎KMG🩸",//name of the bot
 
 //sticker details
-global.stickername = process.env.STICKER || "_*🩸KING SIEGFRIED KMG🩸*_",
-global.packname = '🩸DIAMOND💎'
+global.stickername = process.env.STICKER || "_*🩸𝗗𝗜𝗔𝗠𝗢𝗡𝗗💎𝗞𝗠𝗚🩸*_",
+global.packname = '_*🩸𝗗𝗜𝗔𝗠𝗢𝗡𝗗💎𝗞𝗠𝗚🩸*_'
 global.author = process.env.AUTHOR || "𓆩𝐓𝐎𝐆𝐄𓆪 ✇ ◤✞𝐈𝐍𝐔𝐌𝐀𝐊𝐈",
 //console view/theme
 global.themeemoji = '𓅃'
